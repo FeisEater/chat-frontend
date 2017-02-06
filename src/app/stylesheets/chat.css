@@ -1,0 +1,20 @@
+.disabled {
+  color: gray;
+}
+
+div.disabled {
+  background-color: #ffeeee;
+}
+
+.chat {
+  overflow: auto;
+  height: 60vh;
+}
+
+.room1 {
+  background-color: #eeeeee;
+}
+
+.room2 {
+  background-color: #dddddd;
+}

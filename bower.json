@@ -1,0 +1,27 @@
+{
+  "name": "my-app",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Me"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^0.4.0",
+    "jquery": "^2.2.3",
+    "angular": "^1.5.5",
+    "bootstrap": "^3.3.6",
+    "Ionicons": "ionicons#^2.0.1",
+    "font-awesome": "^4.6.3",
+    "angular-base64-upload": "^0.1.19"
+  }
+}

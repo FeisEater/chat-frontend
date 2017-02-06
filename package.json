@@ -1,0 +1,59 @@
+{
+  "name": "my-app",
+  "version": "0.0.1",
+  "description": "simple bootstrap for angular",
+  "main": "index.js",
+  "engines": {
+    "node": "5.9"
+  },
+  "scripts": {
+    "postinstall": "bower install && gulp build:prod",
+    "lint": "eslint src/app/ test/ gulp/ || true",
+    "lint:fix": "eslint src/app/ test/ gulp/ --fix",
+    "start": "node index.js",
+    "build": "gulp build:prod",
+    "test": "node node_modules/karma/bin/karma start --single-run",
+    "test:watch": "node node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeemuKoivisto/simple-angular-bootstrap.git"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "dependencies": {
+    "angular-base64-upload": "^0.1.19",
+    "bower": "^1.7.9",
+    "del": "^2.2.1",
+    "dotenv": "^2.0.0",
+    "ejs": "^2.5.1",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-uglify": "^2.0.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.7",
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.11",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-react": "^6.8.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "istanbul": "^1.0.0-alpha.2",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.1",
+    "karma-coverage": "^1.1.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-sinon-chai": "^1.2.3",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.4",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
